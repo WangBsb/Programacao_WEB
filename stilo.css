@@ -1,21 +1,23 @@
-/* Estilos para as imagens */
-.imagem {
-    width: 220px;
-	height:220px; /* 33.33% de largura - 20px de espaçamento */
-    float: left; /* Alinha as imagens horizontalmente */
-    margin: 10px; /* Espaçamento entre as imagens */
-    position: relative; /* Para permitir que o posicionamento relativo funcione */
-}
-
-/* Estilos para o container do grid */
-.grid-container {
-    width: 66%; /* Largura total do container */
-    overflow: hidden; /* Evita que as imagens ultrapassem o container */
-}
-
-/* Limpar flutuação */
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+body { 
+	background-color: lightyellow; 
+	background-image:url("layout_campo.jpg");	
+	} 
+p {
+	color: white; 
+	text-align: left; 
+	}
+	
+h1 { 
+	color: red;
+	text-align: center; 	
+	} 
+	
+h2 { 
+	color: orange;
+	text-align: left; 	
+	} 
+	
+h3 { 
+	color: yellow;
+	text-align: left; 	
+	}
