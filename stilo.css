@@ -1,0 +1,21 @@
+/* Estilos para as imagens */
+.imagem {
+    width: 220px;
+	height:220px; /* 33.33% de largura - 20px de espaçamento */
+    float: left; /* Alinha as imagens horizontalmente */
+    margin: 10px; /* Espaçamento entre as imagens */
+    position: relative; /* Para permitir que o posicionamento relativo funcione */
+}
+
+/* Estilos para o container do grid */
+.grid-container {
+    width: 66%; /* Largura total do container */
+    overflow: hidden; /* Evita que as imagens ultrapassem o container */
+}
+
+/* Limpar flutuação */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
